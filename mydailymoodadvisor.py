@@ -21,7 +21,7 @@ elif mood == "sad" or mood == "stressed":
 elif mood == "tired" or energy <= 3:
     print("Advice: Time to recharge! Get some sleep or grab a warm drink.")
 else:
-    print("Advice: Stay mindful and make time for something you enjoy today!")
+    print("Advice: Stay mindful and make time for something you enjoy today!!")
 
 now = datetime.datetime.now()
 print("Date and Time:", now)
