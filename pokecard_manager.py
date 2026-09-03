@@ -4,16 +4,23 @@ class pokemon:
         self.genre = genre
         self.pokes = []
     def add_pokemon(self,poke):
-        self.pokes.append[poke]
+        self.pokes.append(poke)
         print(f"'{poke}' added to {self.name}.")
     def remove_pokemon(self,poke):
-        if poke in self.poke:
+        if poke in self.pokes:
             self.pokes.remove(poke)
             print(f"'{poke}' Removed.")
         else:
             print(f"'{poke}' not found in pokedex.")
     def __del__(self):
         print(f"Pokemon all cards '{self.name}' has been deleted")
+    def display(self):
+        print(f"\n--- {self.name} ({self.genre}) ---")
+        if self.pokes:
+            for i, pokes in enumerate(self.pokes, 1):
+                print(f" {i}. {pokes}")
+        else:
+            print( " NO cards yet. Add some!")            
 my_pokemoncards = pokemon("Pokemoncards","Poke TCG")
 while True:
     print("\n1. Add pokemoncard 2. remove pokemoncard 3. View all card 4. Delete all cards")
