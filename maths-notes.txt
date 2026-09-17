@@ -1,0 +1,4 @@
+Triangles have three sides
+,Pi is 3.14
+,Area equals length times width
+,Prime numbers divide only by one
