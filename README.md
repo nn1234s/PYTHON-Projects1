@@ -1,4 +1,5 @@
 # 🐍 Python PROJECTS-1
+#Code1022w's ragebait where he puts lot of Python code every week!
 
 Welcome to **Python PROJECTS-1**! 🚀
 
